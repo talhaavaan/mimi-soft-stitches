@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mimi Soft Stitches — Handmade With Love</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Nunito:wght@300;400;500;600&family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div class="loader" id="loader">
+  <div class="loader-logo">Mimi <span>Soft Stitches</span></div>
+  <div class="loader-dots">
+    <div class="ldot"></div>
+    <div class="ldot"></div>
+    <div class="ldot"></div>
+  </div>
+</div>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Floating Sparkles -->
+<div class="floating-items" id="sparkleContainer"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">Mimi <span>Soft Stitches</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Shop</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta">Custom Order ✨</button>
+  <button class="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-blob blob1"></div>
+  <div class="hero-bg-blob blob2"></div>
+  <div class="hero-bg-blob blob3"></div>
+
+  <div class="hero-content">
+    <span class="hero-tag">✿ handmade with love ✿</span>
+    <h1>Handmade With <em>Love</em> &amp; Softness</h1>
+    <p>Unique crochet creations stitched carefully for cozy hearts. From plushies to bouquets — every piece holds warmth.</p>
+    <div class="hero-btns">
+      <a href="#products" class="btn-primary">🧶 Shop Collection</a>
+      <a href="#contact" class="btn-secondary">💌 Custom Orders</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="hero-photo-frame">
+      <img src="/images/hero-yarn.jpg" alt="Crochet hooks and colourful yarn" class="hero-photo">
+      <div class="hero-photo-glow"></div>
+    </div>
+    <div style="position:absolute;top:-40px;left:-60px;font-size:3rem;animation:floatItem 5s ease-in-out infinite 0.5s;">🌸</div>
+    <div style="position:absolute;top:20px;right:-50px;font-size:2.5rem;animation:floatItem 4s ease-in-out infinite 1s;">🧶</div>
+    <div style="position:absolute;bottom:-30px;left:-30px;font-size:2rem;animation:floatItem 6s ease-in-out infinite 2s;">🌷</div>
+    <div style="position:absolute;bottom:30px;right:-60px;font-size:2.5rem;animation:floatItem 5s ease-in-out infinite 0.3s;">🪡</div>
+    <div style="position:absolute;top:50%;left:-80px;font-size:2rem;animation:floatItem 7s ease-in-out infinite 1.5s;">✨</div>
+  </div>
+
+  <div class="sparkle" style="top:20%;left:20%;width:8px;height:8px;background:rgba(232,201,153,0.6);border-radius:50%;animation-delay:0s"></div>
+  <div class="sparkle" style="top:70%;left:15%;width:6px;height:6px;background:rgba(255,182,193,0.7);border-radius:50%;animation-delay:0.5s"></div>
+  <div class="sparkle" style="top:40%;left:50%;width:5px;height:5px;background:rgba(255,199,218,0.8);border-radius:50%;animation-delay:1s"></div>
+</section>
+
+<div class="yarn-divider">· · · ✿ · · ·</div>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-image-wrap reveal">
+      <div class="about-image-box about-image-box--photo">
+        <img src="/images/about-cozy.jpg" alt="Cozy crochet workspace with yarn and plushie" class="about-real-photo">
+        <div class="about-photo-overlay"></div>
+      </div>
+      <div class="about-badge">
+        🌸 Est. 2021
+        <span>Crafted with care</span>
+      </div>
+    </div>
+    <div class="about-text">
+      <span class="section-tag reveal">~ our story ~</span>
+      <h2 class="section-title reveal reveal-delay-1">Stitched with <em>Passion</em>, Made with Soul</h2>
+      <p class="reveal reveal-delay-2">Hi, I'm Mimi! Every piece I create is a little piece of my heart — stitched with premium soft yarns and a whole lot of love. I believe handmade gifts carry the warmth no machine can replicate.</p>
+      <p class="reveal reveal-delay-3">From delicate crochet flowers to cuddly plushies and chic tote bags — each creation is thoughtfully crafted, finished with care, and packaged beautifully for you or your loved ones.</p>
+      <div class="about-stats">
+        <div class="stat-card reveal reveal-delay-2">
+          <span class="stat-num">100+</span>
+          <span class="stat-label">Handmade Orders</span>
+        </div>
+        <div class="stat-card reveal reveal-delay-3">
+          <span class="stat-num">∞</span>
+          <span class="stat-label">Custom Designs</span>
+        </div>
+        <div class="stat-card reveal reveal-delay-4">
+          <span class="stat-num">🌿</span>
+          <span class="stat-label">Soft Premium Yarn</span>
+        </div>
+        <div class="stat-card reveal reveal-delay-5">
+          <span class="stat-num">🌍</span>
+          <span class="stat-label">Worldwide Shipping</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="yarn-divider">· · · ✿ · · ·</div>
+
+<!-- PRODUCTS -->
+<section class="products" id="products">
+  <div class="products-header">
+    <span class="section-tag reveal">~ our creations ~</span>
+    <h2 class="section-title reveal">Handpicked <em>Collections</em></h2>
+    <p class="reveal reveal-delay-1">Every item is lovingly stitched by hand — cozy, soft, and uniquely yours.</p>
+  </div>
+  <div class="products-grid">
+
+    <div class="product-card reveal">
+      <div class="product-img product-img--photo">
+        <img src="/images/p1-bouquet.jpg" alt="Bloom Bouquet">
+        <div class="product-hearts">
+          <span>💕</span><span>✿</span><span>🌷</span>
+        </div>
+      </div>
+      <div class="product-body">
+        <div class="product-cat">Flowers</div>
+        <div class="product-name">Bloom Bouquet</div>
+        <div class="product-desc">Handcrafted crochet flower bouquet — stays beautiful forever, no watering needed.</div>
+        <div class="product-footer">
+          <div class="product-price">Rs. 350 <small>/ bouquet</small></div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal reveal-delay-1">
+      <div class="product-img product-img--photo">
+        <img src="/images/p2-bunny.jpg" alt="Snuggle Bunny">
+        <div class="product-hearts">
+          <span>💗</span><span>🌸</span><span>⭐</span>
+        </div>
+      </div>
+      <div class="product-body">
+        <div class="product-cat">Plushies</div>
+        <div class="product-name">Snuggle Bunny</div>
+        <div class="product-desc">Ultra-soft amigurumi plushie made with velvet chenille yarn. Fully customizable.</div>
+        <div class="product-footer">
+          <div class="product-price">Rs. 450 <small>/ piece</small></div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal reveal-delay-2">
+      <div class="product-img product-img--photo">
+        <img src="/images/p3-tote.jpg" alt="Pastel Tote">
+        <div class="product-hearts">
+          <span>💖</span><span>✨</span><span>🌿</span>
+        </div>
+      </div>
+      <div class="product-body">
+        <div class="product-cat">Bags</div>
+        <div class="product-name">Pastel Tote</div>
+        <div class="product-desc">Chic crochet tote bag — perfect for everyday use. Strong, roomy &amp; adorable.</div>
+        <div class="product-footer">
+          <div class="product-price">Rs. 550 <small>/ bag</small></div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal">
+      <div class="product-img product-img--photo">
+        <img src="/images/p4-keychain.jpg" alt="Mini Charm Keychain">
+        <div class="product-hearts">
+          <span>💛</span><span>🌼</span><span>✿</span>
+        </div>
+      </div>
+      <div class="product-body">
+        <div class="product-cat">Accessories</div>
+        <div class="product-name">Mini Charm Keychain</div>
+        <div class="product-desc">Tiny crochet keychains — flowers, animals, food. Perfect little gifts &amp; bag charms.</div>
+        <div class="product-footer">
+          <div class="product-price">Rs. 250 <small>/ piece</small></div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal reveal-delay-2">
+      <div class="product-img product-img--photo">
+        <img src="/images/p5-cardigan.jpg" alt="Cozy Cloud Cardigan">
+        <div class="product-hearts">
+          <span>💞</span><span>✿</span><span>💫</span>
+        </div>
+      </div>
+      <div class="product-body">
+        <div class="product-cat">Sweaters</div>
+        <div class="product-name">Cozy Cloud Cardigan</div>
+        <div class="product-desc">Custom-fit chunky crochet cardigan in 20+ pastel shades. Dreamy &amp; warm.</div>
+        <div class="product-footer">
+          <div class="product-price">Rs. 2800 <small>/ custom</small></div>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card reveal reveal-delay-3">
+      <div class="product-img product-img--photo">
+        <img src="/images/p6-giftset.jpg" alt="Bespoke Gift Set">
+        <div class="product-hearts">
+          <span>💝</span><span>🌸</span><span>✨</span>
+        </div>
+      </div>
+      <div class="product-body">
+        <div class="product-cat">Custom Gifts</div>
+        <div class="product-name">Bespoke Gift Set</div>
+        <div class="product-desc">Fully custom crochet gift boxes — name, colors, design, all yours.</div>
+        <div class="product-footer">
+          <div class="product-price">Rs. 600+ <small>/ custom</small></div>
+          
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="yarn-divider">· · · ✿ · · ·</div>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="gallery-header">
+    <span class="section-tag reveal">~ portfolio ~</span>
+    <h2 class="section-title reveal">A Peek Into <em>Our World</em></h2>
+  </div>
+  <div class="masonry">
+    <div class="gallery-item reveal">
+      <div class="gallery-thumb gp gp-tall">
+        <img src="/images/g1-flowers.jpg" alt="Pink Crochet Rose Bouquet">
+      </div>
+      <div class="gallery-overlay"><span>Pink Crochet Flowers</span></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-1">
+      <div class="gallery-thumb gp gp-medium">
+        <img src="/images/g2-tote.jpg" alt="Crochet Heart Tote Bag">
+      </div>
+      <div class="gallery-overlay"><span>Crochet Tote Bags</span></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-2">
+      <div class="gallery-thumb gp gp-short">
+        <img src="/images/g3-yarn.jpg" alt="Aesthetic Yarn Balls">
+      </div>
+      <div class="gallery-overlay"><span>Aesthetic Yarn Shots</span></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-1">
+      <div class="gallery-thumb gp gp-tall">
+        <img src="/images/g4-plushie.jpg" alt="Handmade Bunny Plushie">
+      </div>
+      <div class="gallery-overlay"><span>Handmade Plushies</span></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-2">
+      <div class="gallery-thumb gp gp-medium">
+        <img src="/images/g5-floral.jpg" alt="Crochet Sunflower Pot">
+      </div>
+      <div class="gallery-overlay"><span>Floral Collection</span></div>
+    </div>
+    <div class="gallery-item reveal reveal-delay-3">
+      <div class="gallery-thumb gp gp-short">
+        <img src="/images/g6-packaging.jpg" alt="Beautiful Gift Packaging">
+      </div>
+      <div class="gallery-overlay"><span>Beautiful Packaging</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="yarn-divider">· · · ✿ · · ·</div>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <div class="process-header">
+    <span class="section-tag reveal">~ how it works ~</span>
+    <h2 class="section-title reveal">From <em>Idea</em> to Your Hands</h2>
+  </div>
+  <div class="process-steps">
+    <div class="step reveal">
+      <div class="step-circle">💭<div class="step-num">1</div></div>
+      <h3>Idea &amp; Sketch</h3>
+      <p>Every piece starts as a dreamy sketch — colors, shapes &amp; love.</p>
+    </div>
+    <div class="step reveal reveal-delay-1">
+      <div class="step-circle">🧶<div class="step-num">2</div></div>
+      <h3>Hand Stitching</h3>
+      <p>Carefully crocheted stitch by stitch with premium soft yarn.</p>
+    </div>
+    <div class="step reveal reveal-delay-2">
+      <div class="step-circle">✨<div class="step-num">3</div></div>
+      <h3>Quality Finishing</h3>
+      <p>Every detail checked — stuffing, seams, shape &amp; softness.</p>
+    </div>
+    <div class="step reveal reveal-delay-3">
+      <div class="step-circle">🎁<div class="step-num">4</div></div>
+      <h3>Gift Packaging</h3>
+      <p>Wrapped beautifully in pastel tissue with a handwritten note.</p>
+    </div>
+    <div class="step reveal reveal-delay-4">
+      <div class="step-circle">🚀<div class="step-num">5</div></div>
+      <h3>Delivery</h3>
+      <p>Shipped with care — worldwide, tracking included.</p>
+    </div>
+  </div>
+</section>
+
+<div class="yarn-divider">· · · ✿ · · ·</div>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-header">
+    <span class="section-tag reveal">~ kind words ~</span>
+    <h2 class="section-title reveal">Loved by <em>Cozy Hearts</em></h2>
+  </div>
+  <div class="testimonials-grid testimonials-grid--screenshots">
+    <div class="tcard tcard--screenshot reveal">
+      <img src="/images/review1.png" alt="Customer review screenshot">
+    </div>
+    <div class="tcard tcard--screenshot reveal reveal-delay-1">
+      <img src="/images/review2.png" alt="Customer thank you message">
+    </div>
+  </div>
+</section>
+
+<!-- ORDER BANNER -->
+<div class="order-banner">
+  <h2>✿ Ready for Your Custom Creation? ✿</h2>
+  <p>Tell me your vision — I'll stitch it into reality with love and premium yarn.</p>
+  <a href="#contact" class="btn-white">Start My Custom Order 💌</a>
+</div>
+
+<!-- SOCIAL -->
+<section class="social-section" id="social">
+  <div class="social-header">
+    <span class="section-tag reveal">~ find us ~</span>
+    <h2 class="section-title reveal">Follow Our <em>Soft World</em></h2>
+  </div>
+  <div class="insta-grid reveal">
+    <div class="insta-tile it1">🌸</div>
+    <div class="insta-tile it2">🧸</div>
+    <div class="insta-tile it3">🌿</div>
+    <div class="insta-tile it4">🌷</div>
+    <div class="insta-tile it5">🧶</div>
+    <div class="insta-tile it6">🎀</div>
+  </div>
+  <div class="social-icons reveal">
+    <a href="#" class="sicon si-ig" title="Instagram">📷</a>
+    <a href="#" class="sicon si-tk" title="TikTok" style="font-size:1.2rem">🎵</a>
+    <a href="#" class="sicon si-pi" title="Pinterest">📌</a>
+    <a href="#" class="sicon si-wa" title="WhatsApp">💬</a>
+  </div>
+  <p class="reveal" style="color:var(--text-light);font-size:0.9rem;">@mimisoftstitches &nbsp;·&nbsp; Tag us in your photos 🌸</p>
+</section>
+
+<div class="yarn-divider">· · · ✿ · · ·</div>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="faq-header">
+    <span class="section-tag reveal">~ common questions ~</span>
+    <h2 class="section-title reveal">We've Got <em>Answers</em></h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item reveal">
+      <button class="faq-q">How long does a custom order take? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Custom orders typically take 7–14 business days depending on complexity. Plushies and keychains are usually ready sooner, while sweaters and large pieces take a bit longer. I'll give you an exact timeline when you place your order.</div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-q">Do you ship internationally? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Absolutely! I ship worldwide with tracked shipping. Delivery times vary by location — typically 7–21 days internationally. All orders are packaged beautifully and securely.</div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-q">What yarn do you use? <span class="faq-icon">+</span></button>
+      <div class="faq-a">I exclusively use premium soft yarns — velvet chenille, cotton, and merino blends. All yarn is baby-safe, hypoallergenic, and chosen for maximum softness and color richness.</div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-q">Can I request specific colors or sizes? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Yes! That's the beauty of handmade. Send me your color preferences, size requirements, and any specific details via the contact form or WhatsApp. I love bringing personalized visions to life.</div>
+    </div>
+    <div class="faq-item reveal">
+      <button class="faq-q">Do you offer gift wrapping? <span class="faq-icon">+</span></button>
+      <div class="faq-a">Every single order comes beautifully packaged in pastel tissue paper with a handwritten note — no extra charge! Gift-ready always. 🎁</div>
+    </div>
+  </div>
+</section>
+
+<div class="yarn-divider">· · · ✿ · · ·</div>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-grid">
+    <div class="contact-info">
+      <span class="section-tag reveal">~ get in touch ~</span>
+      <h2 class="reveal">Let's Create Something <em style="font-family:'Cormorant Garamond',serif;font-style:italic;color:#C06080;">Beautiful</em></h2>
+      <p class="reveal">Have a custom idea? Want to place an order? Or just want to say hi? I'd love to hear from you. 🌸</p>
+      <div class="contact-item reveal">
+        <a href="https://wa.me/923069049746" target="_blank" class="citem-link">
+          <div class="citem-icon">💬</div>
+          <div class="citem-text">
+            <strong>WhatsApp</strong>
+            +92 306 9049746
+          </div>
+        </a>
+      </div>
+      <div class="contact-item reveal reveal-delay-1">
+        <a href="https://www.instagram.com/mimi_soft_stiches/" target="_blank" class="citem-link">
+          <div class="citem-icon">📷</div>
+          <div class="citem-text">
+            <strong>Instagram</strong>
+            @mimi_soft_stiches
+          </div>
+        </a>
+      </div>
+      <div class="thank-note reveal reveal-delay-3">
+        "Thank you for choosing handmade — it truly means the world to me. 🌷<br>Every stitch is placed with intention &amp; love. ~ Mimi"
+      </div>
+    </div>
+    <div class="contact-form reveal reveal-delay-1">
+      <div class="form-group">
+        <label>Your Name ✿</label>
+        <input type="text" placeholder="e.g. Sophie Rose">
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label>What are you interested in?</label>
+        <select>
+          <option>🌸 Crochet Flowers / Bouquet</option>
+          <option>🧸 Plushie / Amigurumi</option>
+          <option>👜 Tote Bag</option>
+          <option>🧥 Sweater / Cardigan</option>
+          <option>🔑 Keychain / Accessories</option>
+          <option>🎁 Custom Gift Set</option>
+          <option>💌 General Enquiry</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Custom Order Details</label>
+        <textarea placeholder="Tell me your vision — colors, size, any special requests..."></textarea>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Anything else you'd like to share 💕" style="min-height:80px"></textarea>
+      </div>
+      <button class="btn-submit">Send With Love 🌸</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="nav-logo">Mimi <span>Soft Stitches</span></div>
+      <p>Handcrafted with love in every stitch. Premium crochet creations for cozy, modern hearts — from plushies to bouquets.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#">Crochet Flowers</a></li>
+        <li><a href="#">Plushies</a></li>
+        <li><a href="#">Tote Bags</a></li>
+        <li><a href="#">Keychains</a></li>
+        <li><a href="#">Sweaters</a></li>
+        <li><a href="#">Custom Gifts</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Info</h4>
+      <ul>
+        <li><a href="#">About Mimi</a></li>
+        <li><a href="#">How It Works</a></li>
+        <li><a href="#">Shipping Info</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Custom Orders</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-divider">~ · ~ · ~ ✿ ~ · ~ · ~</div>
+  <div class="footer-bottom">
+    <span>© 2025 Mimi Soft Stitches · Made with 🌸 &amp; lots of yarn</span>
+    <div class="footer-social">
+      <a class="fsocial-btn" href="#" title="Instagram">📷</a>
+      <a class="fsocial-btn" href="#" title="TikTok">🎵</a>
+      <a class="fsocial-btn" href="#" title="Pinterest">📌</a>
+      <a class="fsocial-btn" href="#" title="WhatsApp">💬</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
